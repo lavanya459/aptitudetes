@@ -1,4 +1,5 @@
-// TIME RESTRICTION: Quiz active only between 11:00 - 11:30
+window.onload = function(){
+  // TIME RESTRICTION: Quiz active only between 11:00 - 11:30
 const quizContainer = document.getElementById("quiz-container");
 const lockedMessage = document.getElementById("locked");
 
@@ -101,3 +102,6 @@ function endQuiz() {
 
 loadQuestion();
 
+
+
+}
