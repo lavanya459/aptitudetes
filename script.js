@@ -7,7 +7,7 @@ const hours = now.getHours();
 const minutes = now.getMinutes();
 
 // Check if current time is between 11:00 and 11:30
-if (hours === 11 && minutes >= 0 && minutes < 30) {
+if (hours === 23 && minutes >= 0 && minutes < 30) {
   quizContainer.style.display = "block";
   lockedMessage.style.display = "none";
 } else {
@@ -100,3 +100,4 @@ function endQuiz() {
 }
 
 loadQuestion();
+
